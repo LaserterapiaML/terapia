@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laserterapia Domiciliar | Tratamento Rápido para Assaduras</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandBg: '#FBF9F5',
+                        brandCard: '#FFFFFF',
+                        brandOffwhite: '#F4EFEA',
+                        brandOlive: '#4A5D4E',
+                        brandOliveHover: '#3B4B3E',
+                        brandRose: '#C69C7B',
+                        brandRoseLight: '#F3ECE7',
+                        brandWine: '#6B2D39',
+                        brandWineDark: '#52202A',
+                        brandText: '#2C352E',
+                        brandTextMuted: '#647267'
+                    },
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom subtle shadows and utilities */
+        .card-shadow {
+            box-shadow: 0 10px 30px -5px rgba(74, 93, 78, 0.08);
+        }
+        .cta-shadow {
+            box-shadow: 0 8px 25px rgba(74, 93, 78, 0.3);
+        }
+        .cta-shadow:hover {
+            box-shadow: 0 12px 30px rgba(74, 93, 78, 0.4);
+        }
+        .logo-arch {
+            border: 2px solid #4A5D4E;
+            border-bottom: none;
+            border-radius: 999px 999px 0 0;
+        }
+    </style>
+</head>
+<body class="bg-brandBg text-brandText font-sans antialiased selection:bg-brandRose selection:text-white">
+
+    <!-- TOP BAR DISCRETA / ANÚNCIO DE CONFIANÇA -->
+    <div class="bg-brandWine text-white text-xs md:text-sm py-2 px-4 text-center font-medium tracking-wide">
+        <i class="fa-solid fa-house-medical mr-2 text-brandRose"></i> Atendimento Especializado Domiciliar para Mães e Bebês
+    </div>
+
+    <!-- HEADER / NAVEGAÇÃO SEM MENUS (FOCO TOTAL EM CONVERSÃO - CRO) -->
+    <header class="py-4 px-6 md:px-12 bg-brandBg/95 sticky top-0 z-50 backdrop-blur-md border-b border-brandOffwhite">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            
+            <!-- LOGO INTEGRADA (SEGUNDO A SUA IDENTIDADE VISUAL) -->
+            <div class="flex items-center gap-3">
+                <div class="relative flex flex-col items-center justify-center w-12 h-14 logo-arch bg-brandBg pt-1">
+                    <!-- Ponto de destaque do logo -->
+                    <span class="w-1.5 h-1.5 bg-brandRose rounded-full absolute -top-1"></span>
+                    <span class="font-serif text-lg font-bold text-brandOlive tracking-tighter leading-none">ML</span>
+                    <div class="w-8 h-[1px] bg-brandRose mt-1"></div>
+                </div>
+                <div class="hidden sm:block">
+                    <span class="block text-xs uppercase tracking-widest text-brandOlive font-bold">Materno Infantil</span>
+                    <span class="block text-[10px] text-brandRose tracking-wider font-semibold">LASERTERAPIA DOMICILIAR</span>
+                </div>
+            </div>
+
+            <!-- BOTÃO RÁPIDO HEADER (MOBILE/DESKTOP) -->
+            <a href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Meu%20beb%C3%AA%20est%C3%A1%20com%20assadura%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener noreferrer" class="bg-brandOlive hover:bg-brandOliveHover text-white px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all duration-300 flex items-center gap-2">
+                <i class="fa-brands fa-whatsapp text-lg text-emerald-400"></i>
+                <span>Agendar Consulta</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- 1. HERO SECTION (ABOVE THE FOLD) -->
+    <section class="relative py-12 md:py-20 px-6 md:px-12 overflow-hidden">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            <!-- COPYWRITING HERO -->
+            <div class="lg:col-span-7 space-y-6 text-left">
+                <div class="inline-flex items-center gap-2 bg-brandRoseLight text-brandWine text-xs md:text-sm font-semibold px-4 py-1.5 rounded-full border border-brandRose/30">
+                    <i class="fa-solid fa-heart-pulse text-brandWine"></i>
+                    <span>Alívio Seguro & Sem Dor no Conforto do Lar</span>
+                </div>
+
+                <!-- H1 COM MESSAGE MATCH PARA GOOGLE ADS ("ASSADURA") -->
+                <h1 class="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-brandWine leading-tight">
+                    Acabe com a <span class="text-brandRose underline decoration-brandRose/40 underline-offset-4">ASSADURA</span> do seu Bebê Rapidamente com Laserterapia Domiciliar
+                </h1>
+
+                <p class="text-base sm:text-lg text-brandTextMuted font-normal leading-relaxed">
+                    Alívio imediato para a dor e irritação do seu pequeno, <strong class="text-brandText font-semibold">no conforto da sua casa</strong>, realizado por profissional de saúde especialista em cuidado infantil.
+                </p>
+
+                <!-- BENEFÍCIOS RÁPIDOS EM BULLETS -->
+                <ul class="space-y-2 pt-2 text-sm sm:text-base text-brandText">
+                    <li class="flex items-center gap-3">
+                        <span class="w-5 h-5 rounded-full bg-brandOlive/10 text-brandOlive flex items-center justify-center text-xs"><i class="fa-solid fa-check"></i></span>
+                        <span>Sessões rápidas, indolores e não invasivas</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <span class="w-5 h-5 rounded-full bg-brandOlive/10 text-brandOlive flex items-center justify-center text-xs"><i class="fa-solid fa-check"></i></span>
+                        <span>Sem necessidade de expor o bebê à rua</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <span class="w-5 h-5 rounded-full bg-brandOlive/10 text-brandOlive flex items-center justify-center text-xs"><i class="fa-solid fa-check"></i></span>
+                        <span>Resultado perceptível desde a 1ª aplicação</span>
+                    </li>
+                </ul>
+
+                <!-- CTA PRINCIPAL ABOVE THE FOLD -->
+                <div class="pt-4 flex flex-col sm:flex-row gap-4 items-stretch sm:items-center">
+                    <a href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Preciso%20de%20ajuda%20com%20assadura%20do%20meu%20beb%C3%AA." target="_blank" rel="noopener noreferrer" class="bg-brandOlive hover:bg-brandOliveHover text-white text-center font-bold text-base sm:text-lg px-8 py-4 rounded-xl cta-shadow transition-all duration-300 flex items-center justify-center gap-3 group">
+                        <i class="fa-brands fa-whatsapp text-2xl text-emerald-400 group-hover:scale-110 transition-transform"></i>
+                        <span>FALE NO WHATSAPP & AGENDE CONSULTA</span>
+                    </a>
+                </div>
+
+                <div class="flex items-center gap-2 text-xs text-brandTextMuted pt-1">
+                    <i class="fa-solid fa-shield-halved text-brandOlive"></i>
+                    <span>Atendimento humanizado e individualizado</span>
+                </div>
+            </div>
+
+            <!-- VISUAL HERO / MOCKUP DE IMAGEM -->
+            <div class="lg:col-span-5 relative">
+                <div class="relative z-10 rounded-2xl overflow-hidden card-shadow border-4 border-white bg-white">
+                    <img src="https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&w=800&q=80" alt="Profissional da saúde atendendo bebê com carinho no ambiente doméstico" class="w-full h-80 sm:h-96 object-cover" loading="lazy" onerror="this.src='https://placehold.co/600x800/F4EFEA/4A5D4E?text=Atendimento+Laserterapia+Infantil'">
+                    
+                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-brandWine/90 to-transparent p-6 text-white">
+                        <p class="font-serif font-semibold text-base">Atendimento Especializado em Casa</p>
+                        <p class="text-xs text-brandRoseLight">Terapia com laser de baixa intensidade para regeneração tecidual acelerada.</p>
+                    </div>
+                </div>
+                
+                <!-- Elemento decorativo gráfico -->
+                <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-brandRoseLight rounded-full z-0 blur-2xl opacity-70"></div>
+                <div class="absolute -top-6 -left-6 w-32 h-32 bg-brandOlive/10 rounded-full z-0 blur-xl"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 2. AGITAÇÃO DO PROBLEMA -->
+    <section class="py-16 px-6 md:px-12 bg-brandOffwhite/60 relative">
+        <div class="max-w-4xl mx-auto text-center space-y-4">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-brandWine">
+                Você Está Sofrendo Ver o Seu Bebê Assim nas Trocas de Fralda?
+            </h2>
+            <p class="text-brandTextMuted text-base max-w-2xl mx-auto">
+                Assaduras severas causam dor intensa e desgastam a rotina da família. Identifica algum destes sintomas?
+            </p>
+        </div>
+
+        <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+            <!-- Card 1 -->
+            <div class="bg-white p-6 rounded-2xl border border-brandOffwhite card-shadow text-center space-y-3">
+                <div class="w-14 h-14 bg-red-50 text-brandWine rounded-full flex items-center justify-center mx-auto text-2xl">
+                    <i class="fa-solid fa-face-frown-open"></i>
+                </div>
+                <h3 class="font-bold text-lg text-brandText">Bebê Chora Constantemente</h3>
+                <p class="text-sm text-brandTextMuted leading-relaxed">
+                    O choro compulsivo durante a limpeza da fralda reflete o incômodo extremo e a ardência provocada pela lesão.
+                </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white p-6 rounded-2xl border border-brandOffwhite card-shadow text-center space-y-3">
+                <div class="w-14 h-14 bg-red-50 text-brandWine rounded-full flex items-center justify-center mx-auto text-2xl">
+                    <i class="fa-solid fa-bacteria"></i>
+                </div>
+                <h3 class="font-bold text-lg text-brandText">Vermelhidão e Feridas Persistentes</h3>
+                <p class="text-sm text-brandTextMuted leading-relaxed">
+                    Pomadas convencionais já não fazem mais efeito e a pele do bebê continua irritada, em carne viva ou descamando.
+                </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white p-6 rounded-2xl border border-brandOffwhite card-shadow text-center space-y-3">
+                <div class="w-14 h-14 bg-red-50 text-brandWine rounded-full flex items-center justify-center mx-auto text-2xl">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                </div>
+                <h3 class="font-bold text-lg text-brandText">Trocas de Fralda Dolorosas</h3>
+                <p class="text-sm text-brandTextMuted leading-relaxed">
+                    Um momento que deveria ser de carinho se transforma em dor para o bebê e frustração para a mãe e o pai.
+                </p>
+            </div>
+        </div>
+
+        <!-- Banner de destaque de empatia -->
+        <div class="max-w-3xl mx-auto mt-10 bg-brandWine text-white p-6 rounded-xl text-center space-y-2">
+            <p class="font-semibold text-base sm:text-lg">Você não precisa passar por isso sozinha nem esperar semanas pela cura espontânea.</p>
+            <p class="text-xs sm:text-sm text-brandRoseLight">Existe uma solução moderna, segura e com resultados imediatos.</p>
+        </div>
+    </section>
+
+    <!-- 3. A SOLUÇÃO (COMO A LASERTERAPIA RESOLVE) -->
+    <section class="py-16 md:py-24 px-6 md:px-12 bg-brandBg">
+        <div class="max-w-6xl mx-auto">
+            
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-14">
+                <span class="text-xs uppercase font-bold tracking-widest text-brandRose">TECNOLOGIA E CUIDADO MATERNO</span>
+                <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brandWine">
+                    Descubra como a Laserterapia Alivia a Dor e Acelera a Cicatrização
+                </h2>
+                <p class="text-brandTextMuted text-base">
+                    A Laserterapia de Baixa Intensidade atua na reparação celular do tecido da pele, reduzindo a inflamação e promovendo alívio imediato sem qualquer dor.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Benefício 1 -->
+                <div class="bg-white p-6 rounded-2xl border border-brandOffwhite card-shadow flex gap-4 items-start">
+                    <div class="w-12 h-12 rounded-xl bg-brandRoseLight text-brandWine flex-shrink-0 flex items-center justify-center text-xl font-bold">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg text-brandText mb-1">Alívio Rápido da Dor</h3>
+                        <p class="text-sm text-brandTextMuted">Ação analgésica imediata logo nas primeiras aplicações, devolvendo o bem-estar ao seu bebê.</p>
+                    </div>
+                </div>
+
+                <!-- Benefício 2 -->
+                <div class="bg-white p-6 rounded-2xl border border-brandOffwhite card-shadow flex gap-4 items-start">
+                    <div class="w-12 h-12 rounded-xl bg-brandRoseLight text-brandWine flex-shrink-0 flex items-center justify-center text-xl font-bold">
+                        <i class="fa-solid fa-kit-medical"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg text-brandText mb-1">Cicatrização Acelerada</h3>
+                        <p class="text-sm text-brandTextMuted">Estimula a síntese de colágeno e vascularização local, acelerando o fechamento da lesão.</p>
+                    </div>
+                </div>
+
+                <!-- Benefício 3 -->
+                <div class="bg-white p-6 rounded-2xl border border-brandOffwhite card-shadow flex gap-4 items-start">
+                    <div class="w-12 h-12 rounded-xl bg-brandRoseLight text-brandWine flex-shrink-0 flex items-center justify-center text-xl font-bold">
+                        <i class="fa-solid fa-baby font-bold"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg text-brandText mb-1">Seguro e Não Invasivo</h3>
+                        <p class="text-sm text-brandTextMuted">Procedimento totalmente indolor, sem efeitos colaterais e próprio para a pele sensível do recém-nascido.</p>
+                    </div>
+                </div>
+
+                <!-- Benefício 4 -->
+                <div class="bg-white p-6 rounded-2xl border border-brandOffwhite card-shadow flex gap-4 items-start">
+                    <div class="w-12 h-12 rounded-xl bg-brandRoseLight text-brandWine flex-shrink-0 flex items-center justify-center text-xl font-bold">
+                        <i class="fa-solid fa-user-nurse"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg text-brandText mb-1">Profissional Especializada</h3>
+                        <p class="text-sm text-brandTextMuted">Atendimento conduzido por profissional de saúde com vasta experiência e prática no cuidado infantil.</p>
+                    </div>
+                </div>
+
+                <!-- Benefício 5 -->
+                <div class="bg-white p-6 rounded-2xl border border-brandOffwhite card-shadow flex gap-4 items-start">
+                    <div class="w-12 h-12 rounded-xl bg-brandRoseLight text-brandWine flex-shrink-0 flex items-center justify-center text-xl font-bold">
+                        <i class="fa-solid fa-house-user"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg text-brandText mb-1">Sem Saída de Casa</h3>
+                        <p class="text-sm text-brandTextMuted">Evite o estresse de deslocar o bebê com dor até uma clínica. O atendimento é no seu lar.</p>
+                    </div>
+                </div>
+
+                <!-- Benefício 6 -->
+                <div class="bg-white p-6 rounded-2xl border border-brandOffwhite card-shadow flex gap-4 items-start">
+                    <div class="w-12 h-12 rounded-xl bg-brandRoseLight text-brandWine flex-shrink-0 flex items-center justify-center text-xl font-bold">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg text-brandText mb-1">Orientação de Prevenção</h3>
+                        <p class="text-sm text-brandTextMuted">Instruções completas sobre rotina de higiene e escolha de produtos para evitar novas assaduras.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- CHAMADA INTERMEDIÁRIA DE CONVERSÃO -->
+            <div class="mt-12 text-center">
+                <a href="https://wa.me/5500000000000?text=Quero%20agendar%20uma%20consulta%20domiciliar%20para%20tratar%20assadura." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 bg-brandOlive hover:bg-brandOliveHover text-white font-bold text-base px-8 py-4 rounded-xl cta-shadow transition-all">
+                    <i class="fa-brands fa-whatsapp text-2xl text-emerald-400"></i>
+                    <span>SOLICITAR ATENDIMENTO DOMICILIAR AGORA</span>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 4. PROVA SOCIAL & AUTORIDADE -->
+    <section class="py-16 px-6 md:px-12 bg-brandRoseLight/40">
+        <div class="max-w-6xl mx-auto space-y-12">
+            
+            <div class="text-center max-w-2xl mx-auto">
+                <span class="text-xs uppercase font-bold tracking-widest text-brandOlive">DEPOIMENTOS</span>
+                <h2 class="text-3xl font-serif font-bold text-brandWine mt-1">
+                    O Que As Mães Dizem Sobre o Atendimento
+                </h2>
+            </div>
+
+            <!-- GRID DE DEPOIMENTOS DE MÃES -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                
+                <!-- Depoimento 1 -->
+                <div class="bg-white p-6 rounded-2xl card-shadow border border-brandOffwhite space-y-4">
+                    <div class="flex text-amber-400 text-sm gap-1">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-sm text-brandTextMuted italic">
+                        "O alívio foi imediato! Meu bebê não conseguia dormir com dor da assadura e no mesmo dia da aplicação do laser ele já ficou calmo. Atendimento maravilhoso!"
+                    </p>
+                    <div class="flex items-center gap-3 pt-2">
+                        <div class="w-10 h-10 bg-brandOlive/20 rounded-full flex items-center justify-center font-bold text-brandOlive text-sm">
+                            MN
+                        </div>
+                        <div>
+                            <p class="font-bold text-sm text-brandText">Mariana N.</p>
+                            <p class="text-xs text-brandTextMuted">Mãe do Theo (3 meses)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Depoimento 2 -->
+                <div class="bg-white p-6 rounded-2xl card-shadow border border-brandOffwhite space-y-4">
+                    <div class="flex text-amber-400 text-sm gap-1">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-sm text-brandTextMuted italic">
+                        "Já tinha testado todas as pomadas possíveis e nada resolvia. A laserterapia em casa salvou a gente. Profissional super atenciosa e delicada."
+                    </p>
+                    <div class="flex items-center gap-3 pt-2">
+                        <div class="w-10 h-10 bg-brandOlive/20 rounded-full flex items-center justify-center font-bold text-brandOlive text-sm">
+                            CS
+                        </div>
+                        <div>
+                            <p class="font-bold text-sm text-brandText">Carla S.</p>
+                            <p class="text-xs text-brandTextMuted">Mãe da Laura (6 meses)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Depoimento 3 -->
+                <div class="bg-white p-6 rounded-2xl card-shadow border border-brandOffwhite space-y-4">
+                    <div class="flex text-amber-400 text-sm gap-1">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-sm text-brandTextMuted italic">
+                        "Poder receber o atendimento no conforto de casa sem precisar tirar o bebê de casa foi o diferencial. Valeu cada centavo pelo alívio rápido."
+                    </p>
+                    <div class="flex items-center gap-3 pt-2">
+                        <div class="w-10 h-10 bg-brandOlive/20 rounded-full flex items-center justify-center font-bold text-brandOlive text-sm">
+                            PR
+                        </div>
+                        <div>
+                            <p class="font-bold text-sm text-brandText">Patricia R.</p>
+                            <p class="text-xs text-brandTextMuted">Mãe do Lucas (2 meses)</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- SELOS DE CONFIAÇA E AUTORIDADE DA PROFISSIONAL -->
+            <div class="bg-white p-8 rounded-2xl border border-brandOffwhite card-shadow max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
+                <!-- Foto/Avatar da Profissional -->
+                <div class="w-28 h-28 rounded-full overflow-hidden flex-shrink-0 border-4 border-brandRoseLight">
+                    <img src="https://images.unsplash.com/photo-1594824813566-7885a396447c?auto=format&fit=crop&w=300&q=80" alt="Profissional de Saúde Materno Infantil" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/300x300/F4EFEA/4A5D4E?text=Profissional'">
+                </div>
+
+                <div class="space-y-3 text-center md:text-left">
+                    <h3 class="text-xl font-serif font-bold text-brandWine">Cuidado Especializado e Humanizado</h3>
+                    <p class="text-sm text-brandTextMuted leading-relaxed">
+                        Atendimento realizado por profissional de saúde devidamente habilitada em Laserterapia Materno-Infantil, dedicada a oferecer alívio rápido com protocolos seguros e eficazes.
+                    </p>
+                    <div class="flex flex-wrap justify-center md:justify-start gap-4 text-xs font-semibold text-brandOlive pt-1">
+                        <span class="bg-brandBg px-3 py-1.5 rounded-full border border-brandOffwhite"><i class="fa-solid fa-certificate mr-1 text-brandRose"></i> Profissional Certificada</span>
+                        <span class="bg-brandBg px-3 py-1.5 rounded-full border border-brandOffwhite"><i class="fa-solid fa-user-shield mr-1 text-brandRose"></i> Protocolos de Biossegurança</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 5. SEÇÃO DE CONVERSÃO FINAL -->
+    <section class="py-16 md:py-24 px-6 md:px-12 bg-gradient-to-b from-brandBg to-brandOffwhite relative">
+        <div class="max-w-4xl mx-auto bg-white rounded-3xl p-8 sm:p-12 border border-brandOffwhite card-shadow text-center space-y-6">
+            
+            <!-- LOGO DISCRETA NO CTA FINAL -->
+            <div class="flex justify-center">
+                <div class="w-10 h-12 logo-arch bg-brandBg pt-1 flex flex-col items-center relative">
+                    <span class="w-1 h-1 bg-brandRose rounded-full absolute -top-1"></span>
+                    <span class="font-serif text-sm font-bold text-brandOlive">ML</span>
+                </div>
+            </div>
+
+            <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brandWine">
+                Pronta para Trazer Alívio e Conforto para o Seu Bebê?
+            </h2>
+
+            <p class="text-brandTextMuted text-base max-w-xl mx-auto">
+                Não deixe o seu filho sofrendo com dores a cada troca de fralda. Agende agora uma consulta domiciliar de laserterapia.
+            </p>
+
+            <div class="pt-4 flex flex-col items-center space-y-4">
+                <a href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20para%20laserterapia%20domiciliar." target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto bg-brandOlive hover:bg-brandOliveHover text-white font-bold text-lg sm:text-xl px-10 py-5 rounded-2xl cta-shadow transition-all duration-300 flex items-center justify-center gap-3">
+                    <i class="fa-brands fa-whatsapp text-3xl text-emerald-400"></i>
+                    <span>FALE NO WHATSAPP & AGENDE CONSULTA</span>
+                </a>
+                <p class="text-xs text-brandTextMuted">Respostas rápidas diretamente no WhatsApp</p>
+            </div>
+
+            <!-- FAQ RÁPIDO PARA DESTRANCAR OBJEÇÕES DA MÃE -->
+            <div class="pt-10 border-t border-brandOffwhite text-left space-y-4 max-w-2xl mx-auto">
+                <h3 class="font-bold text-center text-brandText text-base mb-4">Dúvidas Frequentes:</h3>
+                
+                <details class="bg-brandBg p-4 rounded-xl border border-brandOffwhite group">
+                    <summary class="font-semibold text-sm cursor-pointer text-brandWine flex justify-between items-center">
+                        Dói para aplicar o laser no bebê?
+                        <i class="fa-solid fa-chevron-down group-open:rotate-180 transition-transform text-xs"></i>
+                    </summary>
+                    <p class="text-xs text-brandTextMuted mt-2 leading-relaxed">
+                        Não dói nada! O laser de baixa intensidade produz apenas um calor muito suave e imperceptível. A aplicação é tranquila e relaxante para o bebê.
+                    </p>
+                </details>
+
+                <details class="bg-brandBg p-4 rounded-xl border border-brandOffwhite group">
+                    <summary class="font-semibold text-sm cursor-pointer text-brandWine flex justify-between items-center">
+                        Em quanto tempo vejo resultados?
+                        <p class="hidden">FAQ</p>
+                        <i class="fa-solid fa-chevron-down group-open:rotate-180 transition-transform text-xs"></i>
+                    </summary>
+                    <p class="text-xs text-brandTextMuted mt-2 leading-relaxed">
+                        O alívio da dor costuma acontecer logo após a 1ª sessão. A regressão da vermelhidão e o fechamento da ferida evoluem rapidamente nas horas seguintes.
+                    </p>
+                </details>
+
+                <details class="bg-brandBg p-4 rounded-xl border border-brandOffwhite group">
+                    <summary class="font-semibold text-sm cursor-pointer text-brandWine flex justify-between items-center">
+                        Como funciona o atendimento domiciliar?
+                        <i class="fa-solid fa-chevron-down group-open:rotate-180 transition-transform text-xs"></i>
+                    </summary>
+                    <p class="text-xs text-brandTextMuted mt-2 leading-relaxed">
+                        A profissional vai até a sua residência com todo o equipamento esterilizado e portátil, realizando o tratamento no próprio trocador ou berço do bebê.
+                    </p>
+                </details>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- RODAPÉ CLEAN -->
+    <footer class="py-8 px-6 bg-brandWine text-white text-center text-xs space-y-2">
+        <div class="flex justify-center items-center gap-2">
+            <div class="w-6 h-7 logo-arch border-white/60 flex items-center justify-center">
+                <span class="font-serif text-[10px] text-white">ML</span>
+            </div>
+            <span class="font-semibold tracking-wider">MATERNO INFANTIL - LASERTERAPIA</span>
+        </div>
+        <p class="text-brandRoseLight/80">&copy; 2026 Todos os direitos reservados. Atendimento Domiciliar Materno-Infantil.</p>
+        <p class="text-[10px] text-white/50">Esta página tem caráter informativo. Não substitui consulta médica diagnóstica.</p>
+    </footer>
+
+    <!-- BOTÃO FLUTUANTE DO WHATSAPP (FIXO NO MOBILE PARA MAIOR TAXA DE CONVERSÃO) -->
+    <a href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20preciso%20de%20atendimento%20para%20assadura." target="_blank" rel="noopener noreferrer" class="fixed bottom-5 right-5 z-50 bg-emerald-500 hover:bg-emerald-600 text-white p-4 rounded-full shadow-2xl transition-transform transform hover:scale-110 flex items-center justify-center" aria-label="Fale pelo WhatsApp">
+        <i class="fa-brands fa-whatsapp text-3xl"></i>
+    </a>
+
+</body>
+</html>
